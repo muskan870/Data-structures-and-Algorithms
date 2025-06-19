@@ -1,0 +1,26 @@
+import java.util.Arrays;
+
+public class move_zeroes_to_last {
+    public static void main(String[] args) {
+        int []arr={1,2,0,3,4,0,0,5};
+        int n = arr.length;
+        int ans = nonzero(arr, n);
+        System.out.println("Results are :"+ Arrays.toString(Arrays.copyOf(arr,ans)));
+    }
+    static int nonzero(int[] arr , int n){
+        int [] temp = new int[n];
+        int count = 0;
+        for(int i = 0; i < n; i++){
+            if(arr[i] != 0){
+                temp[count++] = arr[i];
+            }
+        }
+        for(int i = 0; i < count; i++){
+            arr[i] = temp[i];
+        }
+        for(int i = count; i < n; i++){
+            arr[i] = 0;
+        }
+        return arr.length;
+    }
+}
