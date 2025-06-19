@@ -7,6 +7,7 @@ public class linear {
         System.out.println("Enter the target:");
         Scanner scanner= new Scanner(System.in);
         int target= scanner.nextInt();
+        scanner.close();
 
         int ans = linearSearch(nums,target);
         System.out.println();
