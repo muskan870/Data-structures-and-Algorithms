@@ -8,7 +8,7 @@ Welcome to the ultimate grind repo —  one-stop hub for mastering **Data Struct
 <br>
 ## 🧠 What’s Inside?
 <br>
-This repo contains clean, efficient, and job-ready implementations of classic DSA problems, hand-written in **Java**.
+This repo contains  implementations of classic DSA problems, hand-written in **Java**.
 <br>
 ### ✅ Covered Topics (Ongoing)
 - 🔢 Arrays (1D + 2D)
